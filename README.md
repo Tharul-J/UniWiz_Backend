@@ -49,6 +49,4 @@ PHP REST API backend for the UniWiz part-time job platform.
 
 Frontend repository: [UniWiz_Frontend](https://github.com/Tharul-J/UniWiz_Frontend)
 
-## 👥 Author
 
-**Tharul J** - [GitHub](https://github.com/Tharul-J)
