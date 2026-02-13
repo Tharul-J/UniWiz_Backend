@@ -1,2 +1,52 @@
+# Dependencies
 /vendor
+composer.lock
+
+# Environment Configuration
 .env
+.env.local
+.env.*.local
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Log Files
+*.log
+logs/
+error_log
+
+# Uploaded Files (Consider backing up separately)
+api/uploads/*/
+!api/uploads/covers/.gitkeep
+!api/uploads/gallery/.gitkeep
+!api/uploads/required_docs/.gitkeep
+
+# Cache and Temporary Files
+*.cache
+*.tmp
+.phpunit.cache/
+cache/
+
+# Database Files
+*.sql
+*.sqlite
+*.db
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
